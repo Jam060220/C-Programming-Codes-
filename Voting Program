@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+
+    int age;
+    char name[50];
+
+    printf("\nName:Rey Rameses Jude III S. Macalutas ");
+    scanf("%c",&name);
+
+    printf("Enter age : ");
+    scanf("%d", &age);
+    {
+        if(!age)
+        printf("Invalid");
+    }
+
+    if( age  >= 18 )
+        printf(" You can vote!" ,name);
+
+    else
+        printf(" You can't Vote!" ,name);
+    return 0;
+}
